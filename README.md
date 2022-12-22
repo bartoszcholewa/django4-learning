@@ -1,6 +1,6 @@
 # Django 4 by Example - Antonio Melé [packt] 2022
 ***
-Repository is a continuation of [django3-learning](https://github.com/bartoszcholewa/django3-learning) 
+Repository is a continuation of [django3-learning](https://github.com/bartoszcholewa/django3-learning)
 based on book of Antonio Melé - Django 3 By Example.
 ***
 ### Requirements
