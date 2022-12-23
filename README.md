@@ -45,12 +45,20 @@ _Terminal 3_
 celery -A myshop flower
 ```
 ***
+### Stripe CLI
+```shell
+stripe login
+stripe listen --forward-to localhost:8000/payment/webhook/
+```
 ### Covered chapters
 1. Chapter 8: Building an Online Shop
    * Creating an online shop project
    * Building a shopping cart
    * Registering customer orders
    * Asynchronous tasks
+
+2. Chapter 9: Managing Payments and Orders
+   * Integrating a payment gateway
 
 Additional resources
 - [Source code for this chapter](https://github.com/PacktPublishing/Django-4-by-example/tree/main/Chapter08)

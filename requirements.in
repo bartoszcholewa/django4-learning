@@ -2,6 +2,7 @@
 # requirements.in stores no-dependency packages required for project. From that, pip-compile will generate
 # requirements.txt by pip-tools that have all dependencies for selected packages.
 
+# Chapter 8
 celery==5.2.7
 Django==4.1.4
 flake8==6.0.0
@@ -10,3 +11,6 @@ isort==5.11.4
 Pillow==9.3.0
 pre-commit==2.20.0
 pip-tools==6.12.1
+
+# Chapter 9
+stripe==4.0.2
