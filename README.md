@@ -82,6 +82,13 @@ stripe listen --forward-to localhost:8000/payment/webhook/
   * django-parler
   * Format localization
   * django-localflavor
+
+* **Chapter 12**: Building an E-Learning Platform
+  * Setting up the e-learning project
+  * Serving media files
+  * Building the course models
+  * Creating models for polymorphic content
+  *
 ***
 ### Chapter 8 - Additional resources
 - [Source code for this chapter](https://github.com/PacktPublishing/Django-4-by-example/tree/main/Chapter08)
