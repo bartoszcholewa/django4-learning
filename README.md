@@ -59,6 +59,8 @@ stripe listen --forward-to localhost:8000/payment/webhook/
 
 2. Chapter 9: Managing Payments and Orders
    * Integrating a payment gateway
+   * Exporting orders to CSV files
+   * Extending the administration site with custom views
 
 Additional resources
 - [Source code for this chapter](https://github.com/PacktPublishing/Django-4-by-example/tree/main/Chapter08)
