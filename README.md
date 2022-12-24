@@ -51,17 +51,20 @@ stripe login
 stripe listen --forward-to localhost:8000/payment/webhook/
 ```
 ### Covered chapters
-1. Chapter 8: Building an Online Shop
+* **Chapter 8**: Building an Online Shop
    * Creating an online shop project
    * Building a shopping cart
    * Registering customer orders
    * Asynchronous tasks
 
-2. Chapter 9: Managing Payments and Orders
+* **Chapter 9**: Managing Payments and Orders
    * Integrating a payment gateway
    * Exporting orders to CSV files
    * Extending the administration site with custom views
    * Generating PDF invoices dynamically
+
+* **Chapter 10**: Extending Your Shop
+  * Creating a coupon system
 ***
 ### Chapter 8 - Additional resources
 - [Source code for this chapter](https://github.com/PacktPublishing/Django-4-by-example/tree/main/Chapter08)
