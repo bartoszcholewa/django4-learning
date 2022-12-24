@@ -14,3 +14,4 @@ pip-tools==6.12.1
 
 # Chapter 9
 stripe==4.0.2
+WeasyPrint==56.1
