@@ -31,7 +31,7 @@ and check if everythin passes by
 pre-commit run --all-files
 ```
 ***
-### Celery, RabbitMQ and Flower
+### Celery, RabbitMQ, Redis and Flower
 _Terminal 1_
 ```shell
 docker run -it --rm --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:management
@@ -43,6 +43,10 @@ celery -A myshop worker -l info
 _Terminal 3_
 ```shell
 celery -A myshop flower
+```
+_Terminal 4_
+```shell
+docker run -it --rm --name redis -p 6379:6379 redis
 ```
 ***
 ### Stripe CLI
@@ -65,6 +69,7 @@ stripe listen --forward-to localhost:8000/payment/webhook/
 
 * **Chapter 10**: Extending Your Shop
   * Creating a coupon system
+  * Building a recommendation engine
 ***
 ### Chapter 8 - Additional resources
 - [Source code for this chapter](https://github.com/PacktPublishing/Django-4-by-example/tree/main/Chapter08)
@@ -79,27 +84,32 @@ stripe listen --forward-to localhost:8000/payment/webhook/
 - [Flower documentation](https://flower.readthedocs.io/)
 
 ### Chapter 9 - Additional resources
-[Source code for this chapter](https://github.com/PacktPublishing/Django-4-by-example/tree/main/Chapter09)
-[Stripe website](https://www.stripe.com/)
-[Stripe Checkout documentation](https://stripe.com/docs/payments/checkout)
-[Creating a Stripe account](https://dashboard.stripe.com/register)
-[Stripe account settings](https://dashboard.stripe.com/settings/account)
-[Stripe Python library](https://github.com/stripe/stripe-python)
-[Stripe test API keys](https://dashboard.stripe.com/test/apikeys)
-[Stripe API keys documentation](https://stripe.com/docs/keys)
-[Stripe API version 2022-08-01 release notes](https://stripe.com/docs/upgrades#2022-08-01)
-[Stripe checkout session modes](https://stripe.com/docs/api/checkout/sessions/object#checkout_session_object-mode)
-[Building absolute URIs with Django](https://docs.djangoproject.com/en/4.1/ref/request-response/#django.http.HttpRequest.build_absolute_uri)
-[Creating Stripe sessions](https://stripe.com/docs/api/checkout/sessions/create)
-[Stripe-supported currencies](https://stripe.com/docs/currencies)
-[Stripe Payments dashboard](https://dashboard.stripe.com/test/payments)
-[Credit cards for testing payments with Stripe](https://stripe.com/docs/testing)
-[Stripe webhooks](https://dashboard.stripe.com/test/webhooks)
-[Types of events sent by Stripe](https://stripe.com/docs/api/events/types)
-[Installing the Stripe CLI](https://stripe.com/docs/stripe-cli#install)
-[Latest Stripe CLI release](https://github.com/stripe/stripe-cli/releases/latest)
-[Generating CSV files with Django](https://docs.djangoproject.com/en/4.1/howto/outputting-csv/)
-[Django administration templates](https://github.com/django/django/tree/4.0/django/contrib/admin/templates/admin)
-[Outputting PDF files with ReportLab](https://docs.djangoproject.com/en/4.1/howto/outputting-pdf/)
-[Installing WeasyPrint](https://weasyprint.readthedocs.io/en/latest/install.html)
-[Static files for this chapter](https://github.com/PacktPublishing/Django-4-by-Example/tree/main/Chapter09/myshop/shop/static)
+- [Source code for this chapter](https://github.com/PacktPublishing/Django-4-by-example/tree/main/Chapter09)
+- [Stripe website](https://www.stripe.com/)
+- [Stripe Checkout documentation](https://stripe.com/docs/payments/checkout)
+- [Creating a Stripe account](https://dashboard.stripe.com/register)
+- [Stripe account settings](https://dashboard.stripe.com/settings/account)
+- [Stripe Python library](https://github.com/stripe/stripe-python)
+- [Stripe test API keys](https://dashboard.stripe.com/test/apikeys)
+- [Stripe API keys documentation](https://stripe.com/docs/keys)
+- [Stripe API version 2022-08-01 release notes](https://stripe.com/docs/upgrades#2022-08-01)
+- [Stripe checkout session modes](https://stripe.com/docs/api/checkout/sessions/object#checkout_session_object-mode)
+- [Building absolute URIs with Django](https://docs.djangoproject.com/en/4.1/ref/request-response/#django.http.HttpRequest.build_absolute_uri)
+- [Creating Stripe sessions](https://stripe.com/docs/api/checkout/sessions/create)
+- [Stripe-supported currencies](https://stripe.com/docs/currencies)
+- [Stripe Payments dashboard](https://dashboard.stripe.com/test/payments)
+- [Credit cards for testing payments with Stripe](https://stripe.com/docs/testing)
+- [Stripe webhooks](https://dashboard.stripe.com/test/webhooks)
+- [Types of events sent by Stripe](https://stripe.com/docs/api/events/types)
+- [Installing the Stripe CLI](https://stripe.com/docs/stripe-cli#install)
+- [Latest Stripe CLI release](https://github.com/stripe/stripe-cli/releases/latest)
+- [Generating CSV files with Django](https://docs.djangoproject.com/en/4.1/howto/outputting-csv/)
+- [Django administration templates](https://github.com/django/django/tree/4.0/django/contrib/admin/templates/admin)
+- [Outputting PDF files with ReportLab](https://docs.djangoproject.com/en/4.1/howto/outputting-pdf/)
+- [Installing WeasyPrint](https://weasyprint.readthedocs.io/en/latest/install.html)
+- [Static files for this chapter](https://github.com/PacktPublishing/Django-4-by-Example/tree/main/Chapter09/myshop/shop/static)
+
+### Chapter 10 - Additional resources
+- [Source code for this chapter](https://github.com/PacktPublishing/Django-4-by-example/tree/main/Chapter10)
+- [Discounts for Stripe Checkout](https://stripe.com/docs/payments/checkout/discounts)
+- [The Redis ZUNIONSTORE command](https://redis.io/commands/zunionstore/)

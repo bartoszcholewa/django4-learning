@@ -8,6 +8,8 @@ amqp==5.1.1
     # via kombu
 asgiref==3.6.0
     # via django
+async-timeout==4.0.2
+    # via redis
 billiard==3.6.4.0
     # via celery
 brotli==1.0.9
@@ -41,6 +43,8 @@ click-repl==0.2.0
     # via celery
 cssselect2==0.7.0
     # via weasyprint
+deprecated==1.2.13
+    # via redis
 distlib==0.3.6
     # via virtualenv
 django==4.1.4
@@ -70,7 +74,9 @@ mccabe==0.7.0
 nodeenv==1.7.0
     # via pre-commit
 packaging==22.0
-    # via build
+    # via
+    #   build
+    #   redis
 pep517==0.13.0
     # via build
 pillow==9.3.0
@@ -103,6 +109,8 @@ pytz==2022.7
     #   flower
 pyyaml==6.0
     # via pre-commit
+redis==4.3.4
+    # via -r requirements.in
 requests==2.28.1
     # via stripe
 six==1.16.0
@@ -145,6 +153,8 @@ webencodings==0.5.1
     #   tinycss2
 wheel==0.38.4
     # via pip-tools
+wrapt==1.14.1
+    # via deprecated
 zopfli==0.2.2
     # via fonttools
 
