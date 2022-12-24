@@ -70,6 +70,18 @@ stripe listen --forward-to localhost:8000/payment/webhook/
 * **Chapter 10**: Extending Your Shop
   * Creating a coupon system
   * Building a recommendation engine
+
+* **Chapter 11**: Adding Internationalization to Your Shop
+  * Preparing your project for internationalization
+  * Translating Python code
+  * Translating templates
+  * Rosetta
+  * Fuzzy translations
+  * URL patterns
+  * Swiching languages
+  * django-parler
+  * Format localization
+  * django-localflavor
 ***
 ### Chapter 8 - Additional resources
 - [Source code for this chapter](https://github.com/PacktPublishing/Django-4-by-example/tree/main/Chapter08)
