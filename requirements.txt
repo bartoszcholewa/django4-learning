@@ -48,6 +48,16 @@ deprecated==1.2.13
 distlib==0.3.6
     # via virtualenv
 django==4.1.4
+    # via
+    #   -r requirements.in
+    #   django-localflavor
+    #   django-parler
+    #   django-rosetta
+django-localflavor==3.1
+    # via -r requirements.in
+django-parler==2.3
+    # via -r requirements.in
+django-rosetta==0.9.8
     # via -r requirements.in
 filelock==3.8.2
     # via virtualenv
@@ -87,6 +97,8 @@ pip-tools==6.12.1
     # via -r requirements.in
 platformdirs==2.6.0
     # via virtualenv
+polib==1.1.1
+    # via django-rosetta
 pre-commit==2.20.0
     # via -r requirements.in
 prometheus-client==0.15.0
@@ -103,6 +115,8 @@ pyflakes==3.0.1
     # via flake8
 pyphen==0.13.2
     # via weasyprint
+python-stdnum==1.18
+    # via django-localflavor
 pytz==2022.7
     # via
     #   celery
@@ -112,7 +126,9 @@ pyyaml==6.0
 redis==4.3.4
     # via -r requirements.in
 requests==2.28.1
-    # via stripe
+    # via
+    #   django-rosetta
+    #   stripe
 six==1.16.0
     # via
     #   click-repl
