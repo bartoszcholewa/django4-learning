@@ -45,6 +45,11 @@ _Terminal 3_
 celery -A myshop flower
 ```
 ***
+### Stripe CLI
+```shell
+stripe login
+stripe listen --forward-to localhost:8000/payment/webhook/
+```
 ### Covered chapters
 1. Chapter 8: Building an Online Shop
    * Creating an online shop project
@@ -52,7 +57,13 @@ celery -A myshop flower
    * Registering customer orders
    * Asynchronous tasks
 
-Additional resources
+2. Chapter 9: Managing Payments and Orders
+   * Integrating a payment gateway
+   * Exporting orders to CSV files
+   * Extending the administration site with custom views
+   * Generating PDF invoices dynamically
+***
+### Chapter 8 - Additional resources
 - [Source code for this chapter](https://github.com/PacktPublishing/Django-4-by-example/tree/main/Chapter08)
 - [Static files for the project](https://github.com/PacktPublishing/Django-4-by-Example/tree/main/Chapter08/myshop/shop/static)
 - [Django session settings](https://docs.djangoproject.com/en/4.1/ref/settings/#sessions)
@@ -63,3 +74,29 @@ Additional resources
 - [Official RabbitMQ Docker image](https://hub.docker.com/_/rabbitmq)
 - [RabbitMQ installation instructions](https://www.rabbitmq.com/download.html)
 - [Flower documentation](https://flower.readthedocs.io/)
+
+### Chapter 9 - Additional resources
+[Source code for this chapter](https://github.com/PacktPublishing/Django-4-by-example/tree/main/Chapter09)
+[Stripe website](https://www.stripe.com/)
+[Stripe Checkout documentation](https://stripe.com/docs/payments/checkout)
+[Creating a Stripe account](https://dashboard.stripe.com/register)
+[Stripe account settings](https://dashboard.stripe.com/settings/account)
+[Stripe Python library](https://github.com/stripe/stripe-python)
+[Stripe test API keys](https://dashboard.stripe.com/test/apikeys)
+[Stripe API keys documentation](https://stripe.com/docs/keys)
+[Stripe API version 2022-08-01 release notes](https://stripe.com/docs/upgrades#2022-08-01)
+[Stripe checkout session modes](https://stripe.com/docs/api/checkout/sessions/object#checkout_session_object-mode)
+[Building absolute URIs with Django](https://docs.djangoproject.com/en/4.1/ref/request-response/#django.http.HttpRequest.build_absolute_uri)
+[Creating Stripe sessions](https://stripe.com/docs/api/checkout/sessions/create)
+[Stripe-supported currencies](https://stripe.com/docs/currencies)
+[Stripe Payments dashboard](https://dashboard.stripe.com/test/payments)
+[Credit cards for testing payments with Stripe](https://stripe.com/docs/testing)
+[Stripe webhooks](https://dashboard.stripe.com/test/webhooks)
+[Types of events sent by Stripe](https://stripe.com/docs/api/events/types)
+[Installing the Stripe CLI](https://stripe.com/docs/stripe-cli#install)
+[Latest Stripe CLI release](https://github.com/stripe/stripe-cli/releases/latest)
+[Generating CSV files with Django](https://docs.djangoproject.com/en/4.1/howto/outputting-csv/)
+[Django administration templates](https://github.com/django/django/tree/4.0/django/contrib/admin/templates/admin)
+[Outputting PDF files with ReportLab](https://docs.djangoproject.com/en/4.1/howto/outputting-pdf/)
+[Installing WeasyPrint](https://weasyprint.readthedocs.io/en/latest/install.html)
+[Static files for this chapter](https://github.com/PacktPublishing/Django-4-by-Example/tree/main/Chapter09/myshop/shop/static)

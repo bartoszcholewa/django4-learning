@@ -131,4 +131,5 @@ dmypy.json
 # Custom
 .idea
 settings_local.py
-media
+myshop/media/
+myshop/static/
