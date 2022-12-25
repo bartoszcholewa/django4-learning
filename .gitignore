@@ -133,3 +133,5 @@ dmypy.json
 settings_local.py
 myshop/media/
 myshop/static/
+educa/media/
+educa/static/

@@ -50,9 +50,12 @@ distlib==0.3.6
 django==4.1.4
     # via
     #   -r requirements.in
+    #   django-braces
     #   django-localflavor
     #   django-parler
     #   django-rosetta
+django-braces==1.15.0
+    # via -r requirements.in
 django-localflavor==3.1
     # via -r requirements.in
 django-parler==2.3
