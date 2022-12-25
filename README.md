@@ -93,6 +93,9 @@ stripe listen --forward-to localhost:8000/payment/webhook/
 * **Chapter 13**: Creating a Content Management System
   * Creating a CMS
   * Managing course modules and the contents
+
+* **Chapter 14**: Rendering and Caching Content
+  * Displaying courses
 ***
 ### Chapter 8 - Additional resources
 - [Source code for this chapter](https://github.com/PacktPublishing/Django-4-by-example/tree/main/Chapter08)
