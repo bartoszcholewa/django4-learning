@@ -96,6 +96,7 @@ stripe listen --forward-to localhost:8000/payment/webhook/
 
 * **Chapter 14**: Rendering and Caching Content
   * Displaying courses
+  * Adding student registration
 ***
 ### Chapter 8 - Additional resources
 - [Source code for this chapter](https://github.com/PacktPublishing/Django-4-by-example/tree/main/Chapter08)

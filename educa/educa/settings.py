@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     # Packages
 
     # Apps
+    'students.apps.StudentsConfig',
 ]
 
 MIDDLEWARE = [
