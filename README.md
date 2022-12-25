@@ -92,6 +92,7 @@ stripe listen --forward-to localhost:8000/payment/webhook/
 
 * **Chapter 13**: Creating a Content Management System
   * Creating a CMS
+  * Managing course modules and the contents
 ***
 ### Chapter 8 - Additional resources
 - [Source code for this chapter](https://github.com/PacktPublishing/Django-4-by-example/tree/main/Chapter08)
@@ -158,3 +159,15 @@ stripe listen --forward-to localhost:8000/payment/webhook/
 - [Data migrations](https://docs.djangoproject.com/en/4.1/topics/migrations/#data-migrations)
 - [Creating custom model fields](https://docs.djangoproject.com/en/4.1/howto/custom-model-fields/)
 - [Static directory for the e-learning project](https://github.com/PacktPublishing/Django-4-by-Example/tree/main/Chapter12/educa/courses/static)
+
+
+### Chapter 13 - Additional resources
+- [Source code for this chapter](https://github.com/PacktPublishing/Django-4-by-example/tree/main/Chapter13)
+- [Django mixins documentation](https://docs.djangoproject.com/en/4.1/topics/class-based-views/mixins/)
+- [Creating custom permissions](https://docs.djangoproject.com/en/4.1/topics/auth/customizing/#custom-permissions)
+- [Django formsets](https://docs.djangoproject.com/en/4.1/topics/forms/formsets/)
+- [Django model formsets](https://docs.djangoproject.com/en/4.1/topics/forms/modelforms/#model-formsets)
+- [HTML5 drag-and-drop API](https://www.w3schools.com/html/html5_draganddrop.asp)
+- [HTML5 Sortable library documentation](https://github.com/lukasoppermann/html5sortable)
+- [HTML5 Sortable library examples](https://lukasoppermann.github.io/html5sortable/)
+- [django-braces documentation](https://django-braces.readthedocs.io/)
