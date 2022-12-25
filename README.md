@@ -89,6 +89,9 @@ stripe listen --forward-to localhost:8000/payment/webhook/
   * Building the course models
   * Creating models for polymorphic content
   * Adding authentication views
+
+* **Chapter 13**: Creating a Content Management System
+  * Creating a CMS
 ***
 ### Chapter 8 - Additional resources
 - [Source code for this chapter](https://github.com/PacktPublishing/Django-4-by-example/tree/main/Chapter08)
