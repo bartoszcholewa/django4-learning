@@ -78,7 +78,7 @@ stripe listen --forward-to localhost:8000/payment/webhook/
   * Rosetta
   * Fuzzy translations
   * URL patterns
-  * Swiching languages
+  * Switching languages
   * django-parler
   * Format localization
   * django-localflavor
@@ -88,7 +88,7 @@ stripe listen --forward-to localhost:8000/payment/webhook/
   * Serving media files
   * Building the course models
   * Creating models for polymorphic content
-  *
+  * Adding authentication views
 ***
 ### Chapter 8 - Additional resources
 - [Source code for this chapter](https://github.com/PacktPublishing/Django-4-by-example/tree/main/Chapter08)
@@ -132,3 +132,26 @@ stripe listen --forward-to localhost:8000/payment/webhook/
 - [Source code for this chapter](https://github.com/PacktPublishing/Django-4-by-example/tree/main/Chapter10)
 - [Discounts for Stripe Checkout](https://stripe.com/docs/payments/checkout/discounts)
 - [The Redis ZUNIONSTORE command](https://redis.io/commands/zunionstore/)
+
+### Chapter 11 - Additional resources
+- [Source code for this chapter](https://github.com/PacktPublishing/Django-4-by-example/tree/main/Chapter11)
+- [List of valid language IDs](http://www.i18nguy.com/unicode/language-identifiers.html)
+- [List of internationalization and localization settings](https://docs.djangoproject.com/en/4.1/ref/settings/#globalization-i18n-l10n)
+- [Homebrew package manager](https://brew.sh/)
+- [Installing gettext on Windows](https://docs.djangoproject.com/en/4.1/topics/i18n/translation/#gettext-on-windows)
+- [Precompiled gettext binary installer for Windows](https://mlocati.github.io/articles/gettext-iconv-windows.html)
+- [Documentation about translations](https://docs.djangoproject.com/en/4.1/topics/i18n/translation/)
+- [Poedit translation file editor](https://poedit.net/)
+- [Documentation for Django Rosetta](https://django-rosetta.readthedocs.io/)
+- [The django-parler module’s compatibility with Django](https://django-parler.readthedocs.io/en/latest/compatibility.html)
+- [Documentation for django-parler](https://django-parler.readthedocs.io/en/latest/)
+- [Django formatting configuration for the Spanish locale](https://github.com/django/django/blob/stable/4.0.x/django/conf/locale/es/formats.py)
+- [Django format localization](https://docs.djangoproject.com/en/4.1/topics/i18n/formatting/)
+- [Documentation for django-localflavor](https://django-localflavor.readthedocs.io/en/latest/)
+
+### Chapter 12 - Additional resources
+- [Source code for this chapter](https://github.com/PacktPublishing/Django-4-by-example/tree/main/Chapter12)
+- [Using Django fixtures for testing](https://docs.djangoproject.com/en/4.1/topics/testing/tools/#fixture-loading)
+- [Data migrations](https://docs.djangoproject.com/en/4.1/topics/migrations/#data-migrations)
+- [Creating custom model fields](https://docs.djangoproject.com/en/4.1/howto/custom-model-fields/)
+- [Static directory for the e-learning project](https://github.com/PacktPublishing/Django-4-by-Example/tree/main/Chapter12/educa/courses/static)
