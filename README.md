@@ -106,6 +106,9 @@ docker run -it --rm --name memcached -p 11211:11211 memcached -m 64
   * Accessing the course contents
   * Using the cache framework
 
+* **Chapter 15**: Building an API
+  * Building a RESTful API
+
 ***
 ### Chapter 8 - Additional resources
 - [Source code for this chapter](https://github.com/PacktPublishing/Django-4-by-example/tree/main/Chapter08)
@@ -192,3 +195,21 @@ docker run -it --rm --name memcached -p 11211:11211 memcached -m 64
 - [Memcached official website](https://memcached.org)
 - [Pymemcache 's source code](https://github.com/pinterest/pymemcache)
 - [Django Redisboard’s source code](https://github.com/ionelmc/django-redisboard)
+
+### Chapter 15 - Additional resources
+- [Source code for this chapter](https://github.com/PacktPublishing/Django-4-by-example/tree/main/Chapter15)
+- [REST framework website](https://www.django-rest-framework.org/)
+- [REST framework settings](https://www.django-rest-framework.org/api-guide/settings/)
+- [REST framework renderers](https://www.django-rest-framework.org/api-guide/renderers/)
+- [REST framework parsers](https://www.django-rest-framework.org/api-guide/parsers/)
+- [REST framework generic mixins and views](https://www.django-rest-framework.org/api-guide/generic-views/)
+- [Download curl](https://curl.se/download.html)
+- [Postman API platform](https://www.getpostman.com/)
+- [REST framework serializers](https://www.django-rest-framework.org/api-guide/serializers/)
+- [HTTP basic authentication](https://en.wikipedia.org/wiki/Basic_access_authentication)
+- [REST framework authentication](https://www.django-rest-framework.org/api-guide/authentication/)
+- [REST framework permissions](https://www.django-rest-framework.org/api-guide/permissions/)
+- [REST framework ViewSets](https://www.django-rest-framework.org/api-guide/viewsets/)
+- [REST framework routers](https://www.django-rest-framework.org/api-guide/routers/)
+- [Python Requests library documentation](https://requests.readthedocs.io/en/master/)
+- [Authentication with the Requests library](https://requests.readthedocs.io/en/master/user/authentication/)
