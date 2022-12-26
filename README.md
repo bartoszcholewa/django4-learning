@@ -54,6 +54,12 @@ docker run -it --rm --name redis -p 6379:6379 redis
 stripe login
 stripe listen --forward-to localhost:8000/payment/webhook/
 ```
+***
+### Memchacked
+```shell
+docker pull memcached
+docker run -it --rm --name memcached -p 11211:11211 memcached -m 64
+```
 ### Covered chapters
 * **Chapter 8**: Building an Online Shop
    * Creating an online shop project
@@ -98,6 +104,7 @@ stripe listen --forward-to localhost:8000/payment/webhook/
   * Displaying courses
   * Adding student registration
   * Accessing the course contents
+  * Using the cache framework
 
 ***
 ### Chapter 8 - Additional resources
@@ -166,7 +173,6 @@ stripe listen --forward-to localhost:8000/payment/webhook/
 - [Creating custom model fields](https://docs.djangoproject.com/en/4.1/howto/custom-model-fields/)
 - [Static directory for the e-learning project](https://github.com/PacktPublishing/Django-4-by-Example/tree/main/Chapter12/educa/courses/static)
 
-
 ### Chapter 13 - Additional resources
 - [Source code for this chapter](https://github.com/PacktPublishing/Django-4-by-example/tree/main/Chapter13)
 - [Django mixins documentation](https://docs.djangoproject.com/en/4.1/topics/class-based-views/mixins/)
@@ -177,3 +183,12 @@ stripe listen --forward-to localhost:8000/payment/webhook/
 - [HTML5 Sortable library documentation](https://github.com/lukasoppermann/html5sortable)
 - [HTML5 Sortable library examples](https://lukasoppermann.github.io/html5sortable/)
 - [django-braces documentation](https://django-braces.readthedocs.io/)
+
+### Chapter 14 - Additional resources
+- [Source code for this chapter](https://github.com/PacktPublishing/Django-4-by-example/tree/main/Chapter14)
+- [django-embed-video documentation](https://django-embed-video.readthedocs.io/en/latest/)
+- [Django’s cache framework documentation](https://docs.djangoproject.com/en/4.1/topics/cache/)
+- [Memcached downloads](https://memcached.org/downloads)
+- [Memcached official website](https://memcached.org)
+- [Pymemcache 's source code](https://github.com/pinterest/pymemcache)
+- [Django Redisboard’s source code](https://github.com/ionelmc/django-redisboard)
