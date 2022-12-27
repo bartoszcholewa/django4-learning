@@ -167,6 +167,15 @@ REST_FRAMEWORK = {
     ]
 }
 
+CHANNEL_LAYERS = {
+    'default': {
+        'BACKEND': 'channels_redis.core.RedisChannelLayer',
+        'CONFIG': {
+            'hosts': [('127.0.0.1', 6379)],
+        },
+    },
+}
+
 # ---------------- Local Settings ---------------------------------------
 # Put your local settings in directory to override this settings
 # File name should be settings_local.py
