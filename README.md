@@ -117,6 +117,7 @@ docker run -it --rm --name memcached -p 11211:11211 memcached -m 64
   * Routing
   * Implementing the WebSocket client
   * Enabling a channel layer
+  * Modifying the consumer to be fully asynchronous
 
 ***
 ### Chapter 8 - Additional resources
