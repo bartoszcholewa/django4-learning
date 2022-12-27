@@ -113,6 +113,7 @@ docker run -it --rm --name memcached -p 11211:11211 memcached -m 64
   * Creating a chat application
   * Real-time Django with Channels
   * Installing Channels
+  * Writing a consumer
 
 ***
 ### Chapter 8 - Additional resources
