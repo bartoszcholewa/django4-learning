@@ -109,6 +109,9 @@ docker run -it --rm --name memcached -p 11211:11211 memcached -m 64
 * **Chapter 15**: Building an API
   * Building a RESTful API
 
+* **Chapter 16**: Building a Chat Server
+  * Creating a chat application
+
 ***
 ### Chapter 8 - Additional resources
 - [Source code for this chapter](https://github.com/PacktPublishing/Django-4-by-example/tree/main/Chapter08)

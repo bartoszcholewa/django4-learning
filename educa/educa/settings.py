@@ -49,6 +49,7 @@ INSTALLED_APPS = [
 
     # Apps
     'students.apps.StudentsConfig',
+    'chat',
 ]
 
 MIDDLEWARE = [
