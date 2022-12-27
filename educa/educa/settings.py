@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'debug_toolbar',
     'redisboard',
     'rest_framework',
+    'channels',
 
     # Apps
     'students.apps.StudentsConfig',
@@ -66,6 +67,8 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'educa.urls'
+
+ASGI_APPLICATION = 'educa.asgi.application'
 
 TEMPLATES = [
     {
