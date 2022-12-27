@@ -38,3 +38,7 @@ attrs==22.2.0
 # Chapter 15
 djangorestframework==3.13.1
 requests==2.28.1
+
+# Chapter 16
+channels==3.0.5
+channels-redis==3.4.1

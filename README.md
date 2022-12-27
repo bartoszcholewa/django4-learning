@@ -109,6 +109,17 @@ docker run -it --rm --name memcached -p 11211:11211 memcached -m 64
 * **Chapter 15**: Building an API
   * Building a RESTful API
 
+* **Chapter 16**: Building a Chat Server
+  * Creating a chat application
+  * Real-time Django with Channels
+  * Installing Channels
+  * Writing a consumer
+  * Routing
+  * Implementing the WebSocket client
+  * Enabling a channel layer
+  * Modifying the consumer to be fully asynchronous
+  * Integrating the chat application with existing views
+
 ***
 ### Chapter 8 - Additional resources
 - [Source code for this chapter](https://github.com/PacktPublishing/Django-4-by-example/tree/main/Chapter08)
@@ -213,3 +224,12 @@ docker run -it --rm --name memcached -p 11211:11211 memcached -m 64
 - [REST framework routers](https://www.django-rest-framework.org/api-guide/routers/)
 - [Python Requests library documentation](https://requests.readthedocs.io/en/master/)
 - [Authentication with the Requests library](https://requests.readthedocs.io/en/master/user/authentication/)
+
+### Chapter 16 - Additional resources
+- [Source code for this chapter](https://github.com/PacktPublishing/Django-4-by-example/tree/main/Chapter16)
+- [Introduction to ASGI](https://asgi.readthedocs.io/en/latest/introduction.html)
+- [Django support for asynchronous views](https://docs.djangoproject.com/en/4.1/topics/async/)
+- [Django support for asynchronous class-based views](https://docs.djangoproject.com/en/4.1/topics/class-based-views/#async-class-based-views)
+- [Django Channels documentation](https://channels.readthedocs.io/)
+- [Deploying Django with ASGI](https://docs.djangoproject.com/en/4.1/howto/deployment/asgi/)
+- [json_script template filter usage](https://docs.djangoproject.com/en/4.1/ref/templates/builtins/#json-script)
