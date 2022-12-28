@@ -120,6 +120,15 @@ docker run -it --rm --name memcached -p 11211:11211 memcached -m 64
   * Modifying the consumer to be fully asynchronous
   * Integrating the chat application with existing views
 
+* **Chapter 17**: Going Live
+  * Creating a production environment
+  * Using Docker Compose
+  * Serving Django through WSGI and NGINX
+  * Securing your site with SSL/TLS
+  * Using Daphne for Django Channels
+  * Creating a custom middleware
+  * Implementing custom management commands
+
 ***
 ### Chapter 8 - Additional resources
 - [Source code for this chapter](https://github.com/PacktPublishing/Django-4-by-example/tree/main/Chapter08)
@@ -233,3 +242,36 @@ docker run -it --rm --name memcached -p 11211:11211 memcached -m 64
 - [Django Channels documentation](https://channels.readthedocs.io/)
 - [Deploying Django with ASGI](https://docs.djangoproject.com/en/4.1/howto/deployment/asgi/)
 - [json_script template filter usage](https://docs.djangoproject.com/en/4.1/ref/templates/builtins/#json-script)
+
+### Chapter 17 - Additional resources
+- [Source code for this chapter](https://github.com/PacktPublishing/Django-4-by-example/tree/main/Chapter17)
+- [Docker Compose overview](https://docs.docker.com/compose/)
+- [Installing Docker Desktop](https://docs.docker.com/compose/install/compose-desktop/)
+- [Official Python Docker image](https://hub.docker.com/_/python)
+- [Dockerfile reference](https://docs.docker.com/engine/reference/builder/)
+- [requirements.txt file for this chapter](https://github.com/PacktPublishing/Django-4-by-example/blob/main/Chapter17/requirements.txt)
+- [YAML file example](https://yaml.org/)
+- [Dockerfile build section](https://docs.docker.com/compose/compose-file/build/)
+- [Docker restart policy](https://docs.docker.com/config/containers/start-containers-automatically/)
+- [Docker volumes](https://docs.docker.com/storage/volumes/)
+- [Docker Compose specification](https://docs.docker.com/compose/compose-file/)
+- [Official PostgreSQL Docker image](https://hub.docker.com/_/postgres)
+- [wait-for-it.sh Bash script for Docker](https://github.com/vishnubob/wait-for-it/blob/master/wait-for-it.sh)
+- [Service startup order in Compose](https://docs.docker.com/compose/startup-order/)
+- [Official Redis Docker image](https://hub.docker.com/_/redis)
+- [WSGI documentation](https://wsgi.readthedocs.io/en/latest/)
+- [List of uWSGI options](https://uwsgi-docs.readthedocs.io/en/latest/Options.html)
+- [Official NGINX Docker image](https://hub.docker.com/_/nginx)
+- [NGINX documentation](https://nginx.org/en/docs/)
+- [ALLOWED_HOSTS setting](https://docs.djangoproject.com/en/4.1/ref/settings/#allowed-hosts)
+- [Django’s system check framework](https://docs.djangoproject.com/en/4.1/topics/checks/)
+- [HTTP Strict Transport Security policy with Django](https://docs.djangoproject.com/en/4.1/ref/middleware/#http-strict-transport-security)
+- [Django deployment checklist](https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/)
+- [Self-generated SSL/TLS certificate directory](https://github.com/PacktPublishing/Django-4-by-example/blob/main/Chapter17/educa/ssl/)
+- [Let’s Encrypt Certificate Authority](https://letsencrypt.org/)
+- [Daphne source code](https://github.com/django/daphne)
+- [Using Docker Compose in production](https://docs.docker.com/compose/production/)
+- [Docker Swarm mode](https://docs.docker.com/engine/swarm/)
+- [Kubernetes](https://kubernetes.io/docs/home/)
+- [Django middleware](https://docs.djangoproject.com/en/4.1/topics/http/middleware/)
+- [Creating custom management commands](https://docs.djangoproject.com/en/4.1/howto/custom-management-commands/)

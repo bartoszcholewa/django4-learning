@@ -42,3 +42,8 @@ requests==2.28.1
 # Chapter 16
 channels==3.0.5
 channels-redis==3.4.1
+
+# Chapter 17
+psycopg2==2.9.3
+uwsgi==2.0.20
+daphne==3.0.2

@@ -135,3 +135,6 @@ myshop/media/
 myshop/static/
 educa/media/
 educa/static/
+data/
+educa.crt
+educa.key
