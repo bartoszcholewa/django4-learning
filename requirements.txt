@@ -77,7 +77,9 @@ cryptography==38.0.4
 cssselect2==0.7.0
     # via weasyprint
 daphne==3.0.2
-    # via channels
+    # via
+    #   -r requirements.in
+    #   channels
 deprecated==1.2.13
     # via redis
 distlib==0.3.6
@@ -169,6 +171,8 @@ prometheus-client==0.15.0
     # via flower
 prompt-toolkit==3.0.36
     # via click-repl
+psycopg2==2.9.3
+    # via -r requirements.in
 pyasn1==0.4.8
     # via
     #   pyasn1-modules
@@ -243,6 +247,8 @@ typing-extensions==4.4.0
     # via twisted
 urllib3==1.26.13
     # via requests
+uwsgi==2.0.20
+    # via -r requirements.in
 vine==5.0.0
     # via
     #   amqp
